@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&display=swap');
+
 *{
-    margin: 0;padding: 0;
-    background-color: rgb(75, 70, 70);
+    margin: 0;
+    padding: 0;
 }
 .container{
-    width: 80%;
+    background-image: url(./milky-way-2695569_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     min-height: 100vh;
     background-color:white;
     margin: auto;
@@ -11,9 +16,17 @@
     box-sizing: border-box;
 }
  
- .container h1{
-    background-color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.header{
+    color: aliceblue;
+    font-family: 'Lunasima', sans-serif;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.75) ;
+    background-color: rgba(137, 135, 135, 0.25);
+    border-radius: 15px;
+    height: 4rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #noofwords{
@@ -21,25 +34,38 @@
     margin-top: 20px ;
     width: 30%;
     background-color: rgb(244, 249, 247);
-    border: 1px solid black;
+    border: none;
     outline: none;
     font: 100 1.3rem Georgia;
+    border-radius: 15px;
+    color: aliceblue;
+    font-family: 'Lunasima', sans-serif;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.75) ;
+    background-color: rgba(248, 243, 243, 0.25);
+    border-radius: 15px;
+    height: 1rem;
+}
+::placeholder{
+    color: black;
 }
 
 button{
     color: aliceblue;
-    padding: 20px;
-    border: none;
-    font: 100 1.3rem sans-serif;
+    padding: 16px;
+    border:2px solid white;
+    background-color: rgba(36, 34, 34,0.25);
+    font-size: 1.3rem;
+    font-family: 'Lunasima', sans-serif;
     cursor: pointer;
     transition: background-color 0.5s;
+    border-radius: 18px;
 }
 button:hover{
     background-color: rgb(41, 83, 224);
 }
 .para{
-    background-color: rgb(155, 153, 153);
-    font-family: 'Times New Roman', Times, sans-serif;
+    background-color: rgba(50, 139, 222,0.75);
+    font-family: cursive;
     word-spacing: 5px;
     letter-spacing: 2px;
     padding: 10px;
